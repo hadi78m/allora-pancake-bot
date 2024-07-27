@@ -16,7 +16,7 @@ sudo apt install git screen python3 python3-pip python3-venv
 pip install web3
 ```
 ```shell
-git clone https://github.com/0xmoei/allora-pancake-bot
+git clone https://github.com/hadi78m/allora-pancake-bot
 ```
 
 ```shell
