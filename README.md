@@ -5,14 +5,21 @@
 * The more we bet on [pancake](https://pancakeswap.finance/prediction?token=ETH&chain=arb) the more we get Allora points
 
 ## Install Dependecies
-```console
+```shell
 sudo apt-get update
-sudo apt install git screen python3 python3-pip ython3-venv
+```
 
+```shell
+sudo apt install git screen python3 python3-pip python3-venv
+```
+```shell
 pip install web3
 ```
-```console
+```shell
 git clone https://github.com/0xmoei/allora-pancake-bot
+```
+
+```shell
 cd allora-pancake-bot
 ```
 
@@ -20,20 +27,25 @@ cd allora-pancake-bot
 * We can run 1 or 2 wallets with betting x amount of ETH per epoch
 * 2 Wallets with opposite bets decrease the risk
 ### Wallet 1
-```console
+```shell
 screen -S bull
-
+```
+```shell
 python3 bet-bull.py
 ```
+
 Ctrl+A+D
 
 
 ### Wallet 2
-```console
+```shell
 screen -S bear
+```
 
+```shell
 python3 bet-bear.py
 ```
+
 Ctrl+A+D
 
 ## Help this guide
